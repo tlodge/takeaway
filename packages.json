@@ -1,0 +1,90 @@
+{
+    "packageId": "26c72d27bcc2ca",
+    "name": "",
+    "description": "",
+    "buttons": [
+        {
+            "buttonId": "2044fe7fbe501a",
+            "name": "button name",
+            "description": "button description",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "what kind of food do you fancy?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "indian",
+                            "chinese"
+                        ],
+                        "multiple": "single",
+                        "none": false
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "f13654d10988c8",
+                    "number": 1
+                },
+                {
+                    "question": "your indian takeaway",
+                    "type": "products",
+                    "values": {
+                        "catalogue": {
+                            "vendor": "the balti house",
+                            "vendorDescription": "best indian in E14",
+                            "groups": [
+                                {
+                                    "name": "starters",
+                                    "description": "gorgeous starters"
+                                },
+                                {
+                                    "name": "mains",
+                                    "description": "best mains"
+                                },
+                                {
+                                    "name": "sides",
+                                    "description": "sumptuous sides"
+                                }
+                            ],
+                            "products": {
+                                "starters": [
+                                    {
+                                        "name": "bhajis",
+                                        "id": "bha",
+                                        "description": "top style bhajis",
+                                        "price": "3.50",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "samosas",
+                                        "id": "sam",
+                                        "description": "you get two veggie ones",
+                                        "price": "2.40",
+                                        "multiple": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "validators": [],
+                    "questionId": "128c2990a92ca7",
+                    "number": 2
+                }
+            ],
+            "navigation": {
+                "id": "f13654d10988c8",
+                "type": "node",
+                "parent": null,
+                "children": [
+                    {
+                        "id": "128c2990a92ca7",
+                        "type": "node",
+                        "parent": null,
+                        "children": []
+                    }
+                ]
+            },
+            "webhooks": []
+        }
+    ]
+}
