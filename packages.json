@@ -1,5 +1,5 @@
 {
-    "packageId": "2eca8f211aba5",
+    "packageId": "187f865309e634",
     "name": "foodie package",
     "description": "takeaway options",
     "buttons": [
@@ -232,6 +232,13 @@
                                         "name": "rice",
                                         "id": "rice",
                                         "description": "plain rice",
+                                        "price": "3.00",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "seaweed",
+                                        "id": "sea",
+                                        "description": "a very long description of seaweed to test how longer descriptions are rendered",
                                         "price": "3.00",
                                         "multiple": true
                                     }
