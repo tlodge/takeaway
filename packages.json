@@ -1,12 +1,12 @@
 {
-    "packageId": "3d1301f424d1b",
-    "name": "",
-    "description": "",
+    "packageId": "1539647543e401",
+    "name": "foodie package",
+    "description": "takeaway options",
     "buttons": [
         {
             "buttonId": "2044fe7fbe501a",
-            "name": "button name",
-            "description": "button description",
+            "name": "I'm hungry!",
+            "description": "takeaway options",
             "type": "action",
             "questions": [
                 {
