@@ -1,5 +1,5 @@
 {
-    "packageId": "26c72d27bcc2ca",
+    "packageId": "3d1301f424d1b",
     "name": "",
     "description": "",
     "buttons": [
@@ -44,6 +44,10 @@
                                 {
                                     "name": "sides",
                                     "description": "sumptuous sides"
+                                },
+                                {
+                                    "name": "desserts",
+                                    "description": "indian desserts"
                                 }
                             ],
                             "products": {
@@ -61,6 +65,61 @@
                                         "description": "you get two veggie ones",
                                         "price": "2.40",
                                         "multiple": true
+                                    },
+                                    {
+                                        "name": "papadums",
+                                        "id": "pap",
+                                        "description": "3 crispy special papadams",
+                                        "price": "4.00",
+                                        "multiple": true
+                                    }
+                                ],
+                                "mains": [
+                                    {
+                                        "name": "chicken biryani",
+                                        "id": "mainbir",
+                                        "description": "succulent chicken pieces - the best",
+                                        "price": "10.65",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "tandoori chicken",
+                                        "id": "tan",
+                                        "description": "fresh from the oven",
+                                        "price": "12.00",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "meat curry",
+                                        "id": "meat",
+                                        "description": "lots of hot meat",
+                                        "price": "14.50",
+                                        "multiple": true
+                                    }
+                                ],
+                                "sides": [
+                                    {
+                                        "name": "pilau rice",
+                                        "id": "pil",
+                                        "description": "nice rice",
+                                        "price": "2.50",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "plain",
+                                        "id": "plain rice",
+                                        "description": "nice plain rice",
+                                        "price": "2.00",
+                                        "multiple": true
+                                    }
+                                ],
+                                "desserts": [
+                                    {
+                                        "name": "ice cream",
+                                        "id": "ice",
+                                        "description": "indian ice cream",
+                                        "price": "5.00",
+                                        "multiple": true
                                     }
                                 ]
                             }
@@ -69,6 +128,120 @@
                     "validators": [],
                     "questionId": "128c2990a92ca7",
                     "number": 2
+                },
+                {
+                    "question": "an indian breakfast",
+                    "type": "products",
+                    "values": {
+                        "catalogue": {
+                            "vendor": "the balti house",
+                            "vendorDescription": "best indian in E14",
+                            "groups": [
+                                {
+                                    "name": "breakfasts",
+                                    "description": "lovely indian breakfasts"
+                                }
+                            ],
+                            "products": {
+                                "breakfasts": [
+                                    {
+                                        "name": "breakfast box one",
+                                        "id": "break1",
+                                        "description": "indian tea, indian cornflakes and indian milk.  serves one ",
+                                        "price": "3.50",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "breakfast box two",
+                                        "id": "break2",
+                                        "description": "indian tea, indian toast and indian butter. serves one",
+                                        "price": "4.00",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "breakfast box three",
+                                        "id": "break3",
+                                        "description": "indian coffee, indian croissant, serves one",
+                                        "price": "5.00",
+                                        "multiple": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "validators": [],
+                    "questionId": "acac59d1c65548",
+                    "number": 3
+                },
+                {
+                    "question": "chinese takeaway options",
+                    "type": "products",
+                    "values": {
+                        "catalogue": {
+                            "vendor": "china chef",
+                            "vendorDescription": "best Chinese cuisine in London!",
+                            "groups": [
+                                {
+                                    "name": "starters",
+                                    "description": "perfect starters"
+                                },
+                                {
+                                    "name": "mains",
+                                    "description": "lovely mains"
+                                },
+                                {
+                                    "name": "sides",
+                                    "description": "the best sides"
+                                }
+                            ],
+                            "products": {
+                                "starters": [
+                                    {
+                                        "name": "prawn spring rolls",
+                                        "id": "pra",
+                                        "description": "three prawn spring rolls",
+                                        "price": "4.50",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "vegetable spring rolls",
+                                        "id": "veg",
+                                        "description": "perfect for veggies",
+                                        "price": "5.60",
+                                        "multiple": true
+                                    }
+                                ],
+                                "mains": [
+                                    {
+                                        "name": "shredded duck",
+                                        "id": "shre",
+                                        "description": "lovely shredded duck",
+                                        "price": "14.00",
+                                        "multiple": true
+                                    },
+                                    {
+                                        "name": "beef noodles",
+                                        "id": "nood",
+                                        "description": "beef and noodles - the best combination",
+                                        "price": "16.00",
+                                        "multiple": true
+                                    }
+                                ],
+                                "sides": [
+                                    {
+                                        "name": "rice",
+                                        "id": "rice",
+                                        "description": "plain rice",
+                                        "price": "3.00",
+                                        "multiple": true
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "validators": [],
+                    "questionId": "162f0ef32220a5",
+                    "number": 4
                 }
             ],
             "navigation": {
@@ -80,7 +253,57 @@
                         "id": "128c2990a92ca7",
                         "type": "node",
                         "parent": null,
-                        "children": []
+                        "children": [],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "indian"
+                                ]
+                            },
+                            {
+                                "type": "presstime",
+                                "values": {
+                                    "from": 1533704400000,
+                                    "to": 1533718800000
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "acac59d1c65548",
+                        "type": "node",
+                        "parent": null,
+                        "children": [],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "indian"
+                                ]
+                            },
+                            {
+                                "type": "presstime",
+                                "values": {
+                                    "from": 1533718800000,
+                                    "to": 1533762000000
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "162f0ef32220a5",
+                        "type": "node",
+                        "parent": null,
+                        "children": [],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "chinese"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
