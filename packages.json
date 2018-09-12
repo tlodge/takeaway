@@ -1,5 +1,5 @@
 {
-    "packageId": "2157e738839504",
+    "packageId": "295242f45a1a02",
     "name": "foodie package",
     "description": "takeaway options",
     "buttons": [
@@ -415,7 +415,16 @@
                         "id": "2db9bb749765ba",
                         "type": "node",
                         "parent": null,
-                        "children": []
+                        "children": [],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "indian",
+                                    "chinese"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
