@@ -1,5 +1,5 @@
 {
-    "packageId": "132309a7e43dd1",
+    "packageId": "2784f2ac1405f2",
     "name": "foodie package",
     "description": "takeaway options",
     "buttons": [
@@ -419,7 +419,14 @@
                         "id": "231ec4f2a691a6",
                         "type": "node",
                         "parent": null,
-                        "children": [],
+                        "children": [
+                            {
+                                "id": "1369a2ad23d4ad",
+                                "type": "node",
+                                "parent": null,
+                                "children": []
+                            }
+                        ],
                         "rules": [
                             {
                                 "type": "options",
@@ -432,7 +439,30 @@
                     }
                 ]
             },
-            "webhooks": []
+            "webhooks": [
+                {
+                    "name": "log endpoint",
+                    "type": "log",
+                    "url": "http://buttonkit:8080/api/v1/datastore/log",
+                    "method": "POST",
+                    "contentType": "json",
+                    "parameters": {
+                        "dynamic": [
+                            "presser",
+                            "pressed",
+                            "f13654d10988c8",
+                            "128c2990a92ca7",
+                            "acac59d1c65548",
+                            "162f0ef32220a5",
+                            "231ec4f2a691a6"
+                        ],
+                        "static": {
+                            "_datastorename": "takeaways"
+                        }
+                    },
+                    "id": "1369a2ad23d4ad"
+                }
+            ]
         }
     ]
 }
