@@ -1,5 +1,5 @@
 {
-    "packageId": "2784f2ac1405f2",
+    "packageId": "d577e2a862b85",
     "name": "foodie package",
     "description": "takeaway options",
     "buttons": [
@@ -424,7 +424,8 @@
                                 "id": "1369a2ad23d4ad",
                                 "type": "node",
                                 "parent": null,
-                                "children": []
+                                "children": [],
+                                "rules": []
                             }
                         ],
                         "rules": [
